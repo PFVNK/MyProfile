@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: calc(1em + 1vw)
+}
+
+body {
+    overflow: hidden;
+}
+
+.home-center-text {
+    position: absolute;
+    margin-left: 13vw;
+    margin-top: 40vh;
+    color: white;
+    z-index: 1;
+    h1 {
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: 
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+    }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.home-background-video {
+    position: relative;
+    video {
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+.nav-nav {
+    position: fixed;
+    // border: solid red;
+    // display: inline;
+    height: 15vh;
+    width: 100vw;
+    z-index: 1;
+    &:hover h1 {
+        transition: 1s;
+        left: 1.7em;
+    }
+}
+
+.nav-badge {
+    display: grid;
+    height: 2.7em;
+    width: 2.7em;
+    background-color: tomato;
+    z-index: 500;
+    align-content: center;
+    justify-content: center;
+    z-index: 500;
+    p {
+        font-size: 1.7em;
+    }
+}
+
+.nav-title {
+    position: absolute;
+    // border: solid blue;
+    height: 15vh;
+    width: 50vw;
+    font-size: .7em;
+    color: white;
+    white-space: nowrap;
+    // z-index: 1;
+
+    h1 {
+        position: absolute;
+        left: -350px;
+        top: 0;
+        margin-top: .9px;
+        transition: 1s;
+        z-index: -1;
+    }
+}
+
+.nav-items {
+    position: absolute;
+    right: 0;
+    // border: solid yellow;
+    height: 15vh;
+    width: 50vw;
+    font-size: 1.1em;
+    color: white;
+    white-space: nowrap;
+    z-index: 1;
+    ul {
+        margin-right: 18px;
+        margin-top: .2em;
+        list-style-type: none;
+        float: right;
+    }
+    ul > li {
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
+
+
+
