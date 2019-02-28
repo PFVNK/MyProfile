@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 
 import '../App.css'
 
-import codevid from '../codevid.mp4'
+import shortglitch from '../shortglitch1.mp4'
 
 class HomePage extends Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            videoURL: codevid
+            videoURL: shortglitch
         }
     }
 
@@ -22,7 +22,7 @@ class HomePage extends Component {
                     </div>
                 </main>
 
-                <video className="home-background-video" loop autoPlay>
+                <video className="home-background-video" loop autoPlay muted>
                     <source src={this.state.videoURL} type="video/mp4" />
                     <source src={this.state.videoURL} type="video/ogg" />
                     Your browser does not support the video tag.
