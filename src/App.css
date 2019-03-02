@@ -11,7 +11,10 @@ html {
   background-color: #181818; }
 
 body {
-  overflow: hidden; }
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
 
 .home-center-text {
   position: absolute;
@@ -110,7 +113,7 @@ body {
     transition: border-width 0.2s linear; }
 
 .about-text-container {
-  height: 100vh;
+  height: 89vh;
   width: 100vw; }
   .about-text-container .about-text {
     height: 100vh;
@@ -166,3 +169,52 @@ body {
     .contact-text-container .contact-text p {
       margin-top: 30px;
       margin-bottom: 20px; }
+
+.footer-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 11vh;
+  z-index: 500; }
+  .footer-icons * {
+    margin: 0 10px; }
+  .footer-icons .footer-github-icon {
+    color: white;
+    font-size: 2em; }
+  .footer-icons .footer-twitter-icon {
+    color: white;
+    font-size: 2em;
+    color: #00aced; }
+  .footer-icons .footer-facebook-icon {
+    color: white;
+    font-size: 2em;
+    color: #4267b2; }
+
+.sidebar-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 11vw;
+  height: 92vh;
+  z-index: 500; }
+  .sidebar-icons * {
+    margin: 10px 0; }
+  .sidebar-icons .footer-github-icon {
+    color: white;
+    font-size: 2em; }
+  .sidebar-icons .footer-twitter-icon {
+    color: white;
+    font-size: 2em;
+    color: #00aced; }
+  .sidebar-icons .footer-facebook-icon {
+    color: white;
+    font-size: 2em;
+    color: #4267b2; }
