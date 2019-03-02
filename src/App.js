@@ -7,6 +7,7 @@ import Nav from './Components/Nav'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
 					<Route path='/about' exact component={About} />
 					<Route path='/projects' exact component={Projects} />
 					<Route path='/contact' exact component={Contact} />
+					<Route path='/' component={Footer} />
 				</div>
 			</Router>
 		);
