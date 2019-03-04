@@ -211,9 +211,14 @@ a {
     font-size: 2em;
     color: #4267b2; }
 
-@media (max-width: 390px) {
+@media (max-width: 650px) {
+  .nav-title h1 {
+    display: none; } }
+
+@media (max-width: 400px) {
   .nav-items ul {
-    margin-right: 8px; }
+    margin-right: 8px;
+    margin-top: .4em; }
   .nav-items ul > li {
     font-size: .9em; }
   .home-background-video {
@@ -224,7 +229,27 @@ a {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    object-fit: fit; } }
+    object-fit: fit; }
+  .home-center-text {
+    font-size: .8em; } }
+
+@media (max-width: 320px) {
+  .nav-items ul {
+    margin-right: 8px;
+    margin-top: .3em; }
+  .nav-items ul > li {
+    font-size: .7em; }
+  .home-background-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fit; }
+  .home-center-text {
+    font-size: .7em; } }
 
 html {
   margin: 0;
