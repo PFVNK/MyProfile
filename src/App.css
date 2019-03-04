@@ -51,6 +51,12 @@ a {
     transition: .5s;
     left: 1.7em; }
 
+.nav-dummy {
+  position: fixed;
+  background-color: #181818;
+  height: 15vh;
+  width: 100vw; }
+
 .nav-badge {
   display: grid;
   height: 2.7em;
