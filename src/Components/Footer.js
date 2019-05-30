@@ -4,10 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 class Footer extends Component {
-    constructor(props) {
-        super(props)
-
-    }
 
     render() {
         const activeClass = this.props.location.pathname === '/' ? 'footer-icons' : 'sidebar-icons'
