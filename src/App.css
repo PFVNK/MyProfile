@@ -240,6 +240,8 @@ a {
     display: none; }
   .home-background-video {
     display: none !important; }
+    .home-background-video source {
+      display: none !important; }
   .home-background-image {
     background-attachment: fixed;
     display: block;

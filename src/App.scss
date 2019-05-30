@@ -306,6 +306,10 @@ a {
 
     .home-background-video {
         display: none !important;
+        source {
+            display: none !important; 
+        }
+
     }
 
     .home-background-image {
