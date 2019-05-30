@@ -327,12 +327,14 @@ a {
 
 @media (max-width: 400px) {
     .nav-items {
+        width: 45vw;
         ul{
             margin-right: 8px;
             margin-top: .4em;
         }
         ul > li {
             font-size: .9em;
+            margin-left: 25px;
         }
     }
 

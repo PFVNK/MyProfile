@@ -254,11 +254,14 @@ a {
     overflow: hidden; } }
 
 @media (max-width: 400px) {
-  .nav-items ul {
-    margin-right: 8px;
-    margin-top: .4em; }
-  .nav-items ul > li {
-    font-size: .9em; }
+  .nav-items {
+    width: 45vw; }
+    .nav-items ul {
+      margin-right: 8px;
+      margin-top: .4em; }
+    .nav-items ul > li {
+      font-size: .9em;
+      margin-left: 25px; }
   .home-center-text {
     font-size: .8em; } }
 
