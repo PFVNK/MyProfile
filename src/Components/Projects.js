@@ -11,7 +11,7 @@ class Projects extends Component {
                     <a href='https://www.thesynth.live'><h2>TheSynth</h2></a>
                     <p>Synth buitlt with React and Tone.js, styled with Sass. Choose from multiple voices and oscillators.</p>
                     <a href="https://www.pizza-dough.com/"><h2>Pizza Dough</h2></a>
-                    <p>Tip tracker for delivery drivers. Positions logged in drivers on leader board based on amount of tips made. React front-end and Node/MongoDB backend to track driver data.</p>
+                    <p>Tip tracker for delivery drivers. Positions delivery drivers on leader board based on amount of tips made. React front-end and Node/MongoDB backend to track driver data.</p>
                 </div>
 
             </div>
