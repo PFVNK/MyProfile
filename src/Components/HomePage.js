@@ -24,7 +24,7 @@ class HomePage extends Component {
                 </main>
 
                 <div className='home-background-image'>
-                    <img src={brick} alt="image of patrick heflin" />
+                    <img src={brick} alt="patrick heflin" />
                 </div>
 
                 <video className="home-background-video" loop autoPlay muted>
