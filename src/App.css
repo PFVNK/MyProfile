@@ -47,7 +47,7 @@ a {
 
 .nav-nav {
   position: fixed;
-  height: 15vh;
+  height: 8vh;
   width: 100vw;
   z-index: 1; }
   .nav-nav:hover h1 {
@@ -57,7 +57,7 @@ a {
 .nav-dummy {
   position: fixed;
   background-color: #181818;
-  height: 15vh;
+  height: 8vh;
   width: 100vw; }
 
 .nav-badge {
@@ -74,7 +74,7 @@ a {
 
 .nav-title {
   position: absolute;
-  height: 15vh;
+  height: 8vh;
   width: 50vw;
   font-size: .7em;
   color: white;
@@ -91,7 +91,7 @@ a {
   position: absolute;
   right: 0;
   text-decoration: none;
-  height: 15vh;
+  height: 8vh;
   width: 50vw;
   font-size: 1.1em;
   color: white;
@@ -224,13 +224,16 @@ a {
   .nav-title h1 {
     display: none; }
   .home-background-video {
-    display: none; }
+    display: none !important; }
   .home-background-image {
-    display: unset;
+    display: block;
     position: absolute;
     bottom: 0;
     left: 0;
-    opacity: .1; } }
+    height: 100vh;
+    max-width: 100%;
+    opacity: .1;
+    overflow: hidden; } }
 
 @media (max-width: 400px) {
   .nav-items ul {
