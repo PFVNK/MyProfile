@@ -13,30 +13,43 @@ a {
 
 .home-center-text {
     position: absolute;
-    margin-left: 3vw;
+    margin-left: 6vw;
     margin-top: 40vh;
     color: white;
     z-index: 1;
+
     h1 {
         overflow: hidden;
         border-right: .15em solid orange;
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: .15em;
-        animation: 
+        animation:
             typing 3.5s steps(30, end),
             blink-caret .5s step-end infinite;
     }
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
 }
 
 .home-background-image {
@@ -52,6 +65,23 @@ a {
     object-fit: fit;
 }
 
+.home-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    transform: translate(200%, 45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.home-image img {
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%
+}
+
 .nav-nav {
     position: fixed;
     // border: solid red;
@@ -59,6 +89,7 @@ a {
     height: 8vh;
     width: 100vw;
     z-index: 1;
+
     &:hover h1 {
         transition: .5s;
         left: 1.7em;
@@ -81,6 +112,7 @@ a {
     align-content: center;
     justify-content: center;
     z-index: 500;
+
     p {
         font-size: 1.7em;
     }
@@ -117,20 +149,24 @@ a {
     color: white;
     white-space: nowrap;
     z-index: 1;
+
     a {
         color: white;
         text-decoration: none;
     }
+
     & li:hover {
         border-width: 6px;
     }
+
     ul {
         margin-right: 18px;
         margin-top: .5em;
         list-style-type: none;
         float: right;
     }
-    ul > li {
+
+    ul>li {
         display: inline-block;
         margin-left: 30px;
         border-bottom: solid 0px tomato;
@@ -141,6 +177,7 @@ a {
 .about-text-container {
     height: 89vh;
     width: 100vw;
+
     // border: solid blue;
     .about-text {
         height: 100vh;
@@ -149,13 +186,16 @@ a {
         margin: 0 auto;
         padding-top: 156px;
         color: white;
+
         .about-text-highlight {
             color: tomato;
         }
+
         h1 {
             margin-bottom: 60px;
             text-align: center;
         }
+
         p {
             margin-top: 40px;
         }
@@ -165,9 +205,11 @@ a {
 .projects-text-container {
     height: 100vh;
     width: 100vw;
+
     body {
         overflow: auto;
     }
+
     .projects-text {
         height: 100vh;
         width: 60vw;
@@ -175,14 +217,17 @@ a {
         margin: 0 auto;
         padding-top: 156px;
         color: white;
+
         h1 {
             margin-bottom: 60px;
             text-align: center;
         }
+
         h2 {
             margin-top: 40px;
             color: tomato;
         }
+
         p {
             margin-top: 30px;
         }
@@ -192,9 +237,11 @@ a {
 .contact-text-container {
     height: 100vh;
     width: 100vw;
+
     body {
         overflow: auto;
     }
+
     .contact-text {
         height: 100vh;
         width: 60vw;
@@ -202,14 +249,17 @@ a {
         margin: 0 auto;
         padding-top: 156px;
         color: white;
+
         h1 {
             margin-bottom: 60px;
             text-align: center;
         }
+
         a {
             text-decoration: none;
             color: tomato;
         }
+
         p {
             margin-top: 30px;
             margin-bottom: 20px;
@@ -227,19 +277,23 @@ a {
     width: 100vw;
     height: 11vh;
     z-index: 500;
+
     // border: solid red;
     * {
         margin: 0 10px;
     }
+
     .footer-github-icon {
         color: white;
         font-size: 2em;
     }
+
     .footer-twitter-icon {
         color: white;
         font-size: 2em;
         color: #00aced;
     }
+
     .footer-facebook-icon {
         color: white;
         font-size: 2em;
@@ -258,19 +312,23 @@ a {
     width: 11vw;
     height: 92vh;
     z-index: 500;
+
     // border: solid red;
     * {
         margin: 10px 0;
     }
+
     .footer-github-icon {
         color: white;
         font-size: 2em;
     }
+
     .footer-twitter-icon {
         color: white;
         font-size: 2em;
         color: #00aced;
     }
+
     .footer-facebook-icon {
         color: white;
         font-size: 2em;
@@ -284,17 +342,17 @@ a {
     }
 
     .sidebar-icons {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 20vw;
-    height: 92vh;
-    z-index: 500;
-}
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+        height: 92vh;
+        z-index: 500;
+    }
 }
 
 @media (max-width: 650px) {
@@ -306,8 +364,9 @@ a {
 
     .home-background-video {
         display: none !important;
+
         source {
-            display: none !important; 
+            display: none !important;
         }
 
     }
@@ -328,33 +387,36 @@ a {
 @media (max-width: 400px) {
     .nav-items {
         width: 45vw;
-        ul{
+
+        ul {
             margin-right: 8px;
             margin-top: .4em;
         }
-        ul > li {
+
+        ul>li {
             font-size: .9em;
             margin-left: 25px;
         }
     }
 
-    .home-center-text{
+    .home-center-text {
         font-size: .8em;
     }
 }
 
 @media (max-width: 320px) {
     .nav-items {
-        ul{
+        ul {
             margin-right: 8px;
             margin-top: .3em;
         }
-        ul > li {
+
+        ul>li {
             font-size: .7em;
         }
     }
 
-    .home-center-text{
+    .home-center-text {
         font-size: .7em;
     }
 }
@@ -366,10 +428,7 @@ html {
     font-size: calc(1em + 1vw);
     height: 100vh;
     width: 100vw;
-    background-color:  	#181818;
+    background-color: #181818;
     visibility: visible;
     opacity: 1;
 }
-
-
-
