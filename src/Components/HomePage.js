@@ -18,16 +18,19 @@ class HomePage extends Component {
     render() {
         return (
             <>
-                <main>
-                    <div className='home-center-text'>
-                        <h1>I make websites</h1>
+                <div className='home-main'>
+                    <main>
+                        <div className='home-center-text'>
+                            <h1>I make websites</h1>
+                        </div>
+                    </main>
+
+
+                    <div className='home-image'>
+                        <img src={patrick} alt="" />
                     </div>
-                </main>
-
-
-                <div className='home-image'>
-                    <img src={patrick} alt="" />
                 </div>
+
 
                 {/* 
                 <div className='home-background-image'>
