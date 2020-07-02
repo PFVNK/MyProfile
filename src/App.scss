@@ -30,6 +30,7 @@ a {
     z-index: 1;
     width: 50vw;
     margin-right: 100px;
+    border: solid red;
 
     h1 {
         overflow: hidden;
@@ -448,6 +449,7 @@ a {
 
     .home-center-text {
         font-size: .5em;
+        width: 49vw;
     }
 }
 

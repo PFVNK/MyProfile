@@ -20,7 +20,8 @@ a {
   color: white;
   z-index: 1;
   width: 50vw;
-  margin-right: 100px; }
+  margin-right: 100px;
+  border: solid red; }
   .home-center-text h1 {
     overflow: hidden;
     border-right: .15em solid orange;
@@ -292,7 +293,8 @@ a {
 @media (max-width: 500px) {
   .home-image {
     height: 300px;
-    width: 300px; }
+    width: 300px;
+    margin-bottom: 60px; }
   .home-center-text {
     font-size: .7em;
     width: 60vw; } }
@@ -307,7 +309,8 @@ a {
       font-size: .9em;
       margin-left: 25px; }
   .home-center-text {
-    font-size: .5em; } }
+    font-size: .5em;
+    width: 49vw; } }
 
 @media (max-width: 320px) {
   .nav-items ul {
@@ -317,7 +320,8 @@ a {
     font-size: .7em; }
   .home-image {
     height: 200px;
-    width: 200px; }
+    width: 200px;
+    margin-bottom: 30px; }
   .home-center-text {
     font-size: .45em; } }
 
